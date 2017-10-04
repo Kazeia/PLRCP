@@ -1,0 +1,17 @@
+Va en el Readme// Atajos para un mejor manejo del IDE, puedes implementar la manera en como quieres pesonalizar tu vscode. Para personalizar tus atajos, ingresa a: Archivo -> Preferencias -> Metodos Abreviados de Teclado.
+
+Por Defecto:
+- Ctrl + Shift + F = Formatea tu 
+- Ctrl + B = Esconde el explorador de soluciones
+- Ctrl + W = Cierras pestana actual
+- Ctrl + O = Abrir archivo
+- Ctrl + [K O] = Abrir carpeta
+- Ctrl + Tab = Cambia de pestana
+- Ctrl + S = Guarda el archivo actual
+- Alt + Z = Alternar ajuste automatico de linea
+
+Personalizados:
+- Ctrl + T = Abrir Terminal
+- Ctrl + Shift + S = Guardar Todo
+- Alt + B = Esconde la barra de actividades
+- Alt + V = Esconde la barra de estado

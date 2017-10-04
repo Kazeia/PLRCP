@@ -1,0 +1,29 @@
+Para netcore 2.0, puedes utilizar la siguiente sintaxis[1]:
+dotnet new <TEMPLATE> [--force] [-i|--install] [-lang|--language] [-n|--name] [-o|--output] [-u|--uninstall] [Template options] 
+
+A continuacion te muestro algunos ejemplos de creacion de proyectos con el comando dotnet:
+
+1. Creacion de Proyectos:
+
+    1.1 Creamos un proyecto(HelloWorld1). En este Caso se recomienda Crear carpeta, xq crea la estructura en la ruta actual:
+    dotnet -new console
+
+    1.2 Creamos un proyecto(HelloWorld2) con un namespace(si no existe cogera el nombre de la carpta -o), se crea automaticamente una carpeta con el nombre del namespace: 
+    dotnet new console -o HelloWorld2
+
+    1.2 Creamos un proyecto(HelloWorld3) con un namespace(MyNameSpace), se crea automaticamente una carpeta con el nombre del namespace: 
+    dotnet new console -o HelloWorld3 -n MyNameSpace
+
+2. Ejecutar el proyeceto:
+
+    2.1 Correr un proyecto dotnet:
+    //Siempre se ejecuta toda la carpeta, y debe encontrar una estructura de netcore.
+    dotnet run
+
+3. Advertencias
+    3.1 Si aparece el siguiente mensaje, vscode desea crear la carpeta .vscode/ para q puedas hacer debug en tu codigo, se recomienda aceptar si estas en la carpeta de dotnet, de lo contrario lo cre en toda la raiz (Depende de lo q desees hacer).
+    Advertencia - Required assets to build an debug are missing from 'project'. Add them?
+
+
+4. Referencias
+[1] https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-new?tabs=netcore2x (Consultado(03/10/2017))

@@ -1,0 +1,3 @@
+PLRCP: Programming with Low Resources and Cross Platform!
+1. falta un readme, q explique la configuracion, shortcuts y q pluggins se utilizaran para q lenguaje, q se debe instalar para los lenguajes q se ejecutaran.
+2. el alcance del proyecto,etc,etc,etc.

@@ -1,0 +1,10 @@
+/root/Escritorio/dev/propio/PCWI/C#/netcore/Consola/HelloWorld1/bin/Debug/netcoreapp2.0/HelloWorld1.deps.json
+/root/Escritorio/dev/propio/PCWI/C#/netcore/Consola/HelloWorld1/bin/Debug/netcoreapp2.0/HelloWorld1.runtimeconfig.json
+/root/Escritorio/dev/propio/PCWI/C#/netcore/Consola/HelloWorld1/bin/Debug/netcoreapp2.0/HelloWorld1.runtimeconfig.dev.json
+/root/Escritorio/dev/propio/PCWI/C#/netcore/Consola/HelloWorld1/bin/Debug/netcoreapp2.0/HelloWorld1.dll
+/root/Escritorio/dev/propio/PCWI/C#/netcore/Consola/HelloWorld1/bin/Debug/netcoreapp2.0/HelloWorld1.pdb
+/root/Escritorio/dev/propio/PCWI/C#/netcore/Consola/HelloWorld1/obj/Debug/netcoreapp2.0/HelloWorld1.csproj.CoreCompileInputs.cache
+/root/Escritorio/dev/propio/PCWI/C#/netcore/Consola/HelloWorld1/obj/Debug/netcoreapp2.0/HelloWorld1.AssemblyInfoInputs.cache
+/root/Escritorio/dev/propio/PCWI/C#/netcore/Consola/HelloWorld1/obj/Debug/netcoreapp2.0/HelloWorld1.AssemblyInfo.cs
+/root/Escritorio/dev/propio/PCWI/C#/netcore/Consola/HelloWorld1/obj/Debug/netcoreapp2.0/HelloWorld1.dll
+/root/Escritorio/dev/propio/PCWI/C#/netcore/Consola/HelloWorld1/obj/Debug/netcoreapp2.0/HelloWorld1.pdb

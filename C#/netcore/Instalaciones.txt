@@ -1,0 +1,29 @@
+-- Linux_Debian-8.0_XLDE, mediante bash.
+1. Primero necesitamos descargar los paquetes de dependencia de dotnet 2.0, para ello ejecutamos los siguientes comandos[1]:
+
+//Actualizamos nuestros paquetes
+sudo apt-get update 
+
+//Instalamos los paquetes de dependencias de dotnet
+sudo apt-get install curl libunwind8 gettext apt-transport-https 
+
+//Registramos la clave de microsoft
+curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
+sudo mv microsoft.gpg /etc/apt/trusted.gpg.d/microsoft.gpg
+
+//Registramos la clave para cada S.O. Esto es diferente para cada distribucion.
+sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/microsoft-debian-jessie-prod jessie main" > /etc/apt/sources.list.d/dotnetdev.list' 
+
+2. Instalamos el .Net Core SDK:
+
+//Actualizamos nuestros paquetes e instalamos dotnet-sdk
+sudo apt-get update
+sudo apt-get install dotnet-sdk-2.0.0
+
+3. Para verificar si tenemos instalado dotnet, correr el siguiente comando:
+
+//Verificar la version instalada, si sale comando desconocido: no seguiste los pasos correctamente, o no se encuentra en variables de entorno
+dotnet --version
+
+4. Referencias:
+[1] https://www.microsoft.com/net/core#linuxdebian (Consultado(03/10/2017))
