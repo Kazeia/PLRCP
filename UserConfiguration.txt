@@ -1,11 +1,18 @@
 Va en el Readme// Configuraciones q sobrescriben las configuracion por-defecto, este archivo es muy importante, aqui deberas indicar la ruta de tus variables de entorno si es q se necesita, tambien puedes personalizar vscode, extras de los pluggins instalados. Para poder acceder a las configuraciones de usuario, ingresa a: Archivo -> Preferencias -> Configuracion.
 
 {
+    //Editor
     "workbench.startupEditor": "none",
-    "terminal.integrated.shell.linux": "bash",
     "workbench.sideBar.location": "right",
     "editor.minimap.enabled": false,
     "workbench.statusBar.visible": false,
     "workbench.activityBar.visible": false,
-    "window.zoomLevel": 1
+    "window.zoomLevel": 1,
+    "terminal.integrated.shell.linux": "bash",
+    
+    //GO
+    "go.gopath": "/root/go",
+    "go.goroot": "/usr/local/go",
+    "go.formatOnSave": true,
+    "go.formatTool": "goreturns"
 }

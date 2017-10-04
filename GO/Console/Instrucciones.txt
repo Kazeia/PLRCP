@@ -1,0 +1,28 @@
+A continuacion te muestro algunos ejemplos de creacion de proyectos go:
+
+1. Creacion de Proyectos:
+
+    1.1 Creamos un proyecto(HelloWorld1), creamos carpeta con mkdir, archivo con touch, y escribrimos un programa sencillo:
+    mkdir HelloWorld1
+    cd HelloWorld1
+    touch HelloWorld1.go
+
+    1.2 Creamos un proyecto(HelloWorld2) similar al anterior, con la diferencia q agregaremos una biblioteca externa, puede ser Oficial o de git por la comunidad:
+    mkdir HelloWorld2
+    cd HelloWorld2
+    touch HelloWorld2.go
+
+    //estas bibliotecas se guardan en: /root/go/src/github.com
+    go get github.com/streadway/amqp 
+
+2. Ejecutar el proyeceto:
+
+    2.1 Para ejecutar un codigo go, correr el siguiente comando:
+    go run HelloWorld1.go
+
+    2.2 Para convertir a binario, y ejecutar el codigo, correr el siguiente comando:
+    go build HelloWorld1.go
+    ./HelloWorld1
+
+3. Referencias
+[1] https://gobyexample.com/hello-world (Consultado(04/10/2017))

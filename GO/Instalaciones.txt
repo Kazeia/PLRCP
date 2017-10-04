@@ -1,0 +1,35 @@
+-- Linux_Debian-8.0_XLDE, mediante bash.
+1. Primero necesitamos descargar GO, para ello descargamos desde su pagina oficial; https://golang.org/dl/, y corremos los siguientes comandos[1]:
+
+//Actualizamos nuestros paquetes
+sudo apt-get update 
+
+//Descomprimimos en la ruta /usr/local
+tar -C /usr/local -xzf go1.9.linux-amd64.tar.gz 
+
+//Registramos la ruta de go en $PATH
+export PATH=$PATH:/usr/local/go/bin
+
+//Registramos el GOROOT a variables de entorno.
+export GOROOT=$HOME/go1.X
+export PATH=$PATH:$GOROOT/bin
+
+//Verificamos si ya esta instalado:
+go version
+
+//Si hay un error correr el siguiente comando
+export GOROOT=$GOPATH
+
+2. Registrar go en vscode: Necesitamos configurar la ruta de GO, donde vscode leera los plugins, middleware o frameworks descargados e snippeara el codigo.
+{
+    ...
+    //GO, para obtener las rutas colocar en un terminal: go env
+    "go.gopath": "/root/go",
+    "go.goroot": "/usr/local/go",
+    "go.formatOnSave": true,
+    "go.formatTool": "goreturns" // cuando formatees tu codigo te pedira instalar goreturns, dale yes all
+}
+
+
+4. Referencias:
+[1] https://golang.org/doc/install?download=go1.9.linux-amd64.tar.gz (Consultado(04/10/2017))

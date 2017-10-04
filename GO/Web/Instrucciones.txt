@@ -1,0 +1,18 @@
+A continuacion te muestro un proyecto go que levanta un servidor web:
+
+1. Creacion de Proyectos:
+
+    1.1 Creamos un proyecto(Solution1), creamos un archivo go q levante el servidor y un archivo que sera llamado desde go web:
+    mkdir HelloWorld1
+    cd HelloWorld1
+    touch Web.go
+
+2. Ejecutar el proyeceto:
+
+    2.1 Para ejecutar un codigo go, correr el siguiente comando:
+    cd HelloWorld1
+    go run Web.go
+
+    2.2 Para convertir a binario, y ejecutar el codigo, correr el siguiente comando:
+    go build Web.go
+    ./Web
