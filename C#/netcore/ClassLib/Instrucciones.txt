@@ -1,0 +1,3 @@
+ClassLibrary un grupo de clases que nos permiten desacoplar el proyecto, a continuacion se demuestra un proyecto con una clase vacia, Importante: Si cambias el nombre del archivo, tmb debes cambiar el nombre de la clase de su contenido
+
+dotnet new classlib -o Clib

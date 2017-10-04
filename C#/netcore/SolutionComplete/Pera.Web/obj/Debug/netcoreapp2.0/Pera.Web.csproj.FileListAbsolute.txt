@@ -1,0 +1,12 @@
+/root/Escritorio/dev/propio/PLRCP/C#/netcore/SolutionComplete/Pera.Web/bin/Debug/netcoreapp2.0/Pera.Web.deps.json
+/root/Escritorio/dev/propio/PLRCP/C#/netcore/SolutionComplete/Pera.Web/bin/Debug/netcoreapp2.0/Pera.Web.runtimeconfig.json
+/root/Escritorio/dev/propio/PLRCP/C#/netcore/SolutionComplete/Pera.Web/bin/Debug/netcoreapp2.0/Pera.Web.runtimeconfig.dev.json
+/root/Escritorio/dev/propio/PLRCP/C#/netcore/SolutionComplete/Pera.Web/bin/Debug/netcoreapp2.0/Pera.Web.dll
+/root/Escritorio/dev/propio/PLRCP/C#/netcore/SolutionComplete/Pera.Web/bin/Debug/netcoreapp2.0/Pera.Web.pdb
+/root/Escritorio/dev/propio/PLRCP/C#/netcore/SolutionComplete/Pera.Web/bin/Debug/netcoreapp2.0/Pera.Extension.dll
+/root/Escritorio/dev/propio/PLRCP/C#/netcore/SolutionComplete/Pera.Web/bin/Debug/netcoreapp2.0/Pera.Extension.pdb
+/root/Escritorio/dev/propio/PLRCP/C#/netcore/SolutionComplete/Pera.Web/obj/Debug/netcoreapp2.0/Pera.Web.csproj.CoreCompileInputs.cache
+/root/Escritorio/dev/propio/PLRCP/C#/netcore/SolutionComplete/Pera.Web/obj/Debug/netcoreapp2.0/Pera.Web.AssemblyInfoInputs.cache
+/root/Escritorio/dev/propio/PLRCP/C#/netcore/SolutionComplete/Pera.Web/obj/Debug/netcoreapp2.0/Pera.Web.AssemblyInfo.cs
+/root/Escritorio/dev/propio/PLRCP/C#/netcore/SolutionComplete/Pera.Web/obj/Debug/netcoreapp2.0/Pera.Web.dll
+/root/Escritorio/dev/propio/PLRCP/C#/netcore/SolutionComplete/Pera.Web/obj/Debug/netcoreapp2.0/Pera.Web.pdb

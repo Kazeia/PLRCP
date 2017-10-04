@@ -1,0 +1,13 @@
+Proyectos Web corriendo con Servidor IIS ligero, los siguientes comandos dependera del tipo de proyecto web q necesitas.
+
+1. Creamos un proyecto Web vacio
+dotnet new web -o Web1
+
+2. Creamos un proyecto Web MVC con plantilla A LO JAILLYXD
+dotnet new mvc -o Web2 
+
+3. Creamos un proyecto WebAPI, con los protocolos HTTP
+dotnet new webapi -o Web3
+
+4. Creamos un proyecto webrazor
+dotnet new razor -o Web4 

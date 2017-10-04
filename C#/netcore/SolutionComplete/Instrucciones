@@ -1,0 +1,21 @@
+Para un proyecto complejo, se necesitan varios proyectos dentro de el(Console, ClassLibrary, Web, etc.), para ello este ejemplo intenta explicar como podemos crear una solucion con 2 proyectos
+
+1. Creamos una carpeta q funcionaria como una solucion
+mkdir Solution
+cd Solution
+
+2. Creamos un proyecto Web, y ClassLibrary, EN EL MISMO NAMESPACE
+dotnet new mvc -o Pera.Web
+dotnet new classlib -o Pera.Extensions
+
+3. Cambiamos al proyecto q referenciaremos otro proyecto,(funciona como add references de VS), agregamos la referencia del csproj del proyecto dependiente
+cd Pera.Web
+dotnet add reference ../Pera.Extensions/Pera.Extensions.csproj
+
+4. Para Comprobar si se realizo con exito la referencia, En este ejemplo debemos revisar el csproj de Pera.Web, debe haber agregado una linea parecida a esta:
+
+<ItemGroup>
+    <ProjectReference Include="..\Pera.Extensions\Pera.Extensions.csproj" />
+</ItemGroup>
+
+5. En este ejemplo, Hemos creado una clase Person en ./Pera.Extensions y lo utilizamos en la clase ./Pera.Web/Controllers/HomeController.cs, q responde a la vista: ./Pera.Web/Views/Home/Index.cshtml

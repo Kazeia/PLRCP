@@ -1,0 +1,10 @@
+/root/Escritorio/dev/propio/PLRCP/C#/netcore/Console/HelloWorld4/bin/Debug/netcoreapp2.0/MyNameSpace.deps.json
+/root/Escritorio/dev/propio/PLRCP/C#/netcore/Console/HelloWorld4/bin/Debug/netcoreapp2.0/MyNameSpace.runtimeconfig.json
+/root/Escritorio/dev/propio/PLRCP/C#/netcore/Console/HelloWorld4/bin/Debug/netcoreapp2.0/MyNameSpace.runtimeconfig.dev.json
+/root/Escritorio/dev/propio/PLRCP/C#/netcore/Console/HelloWorld4/bin/Debug/netcoreapp2.0/MyNameSpace.dll
+/root/Escritorio/dev/propio/PLRCP/C#/netcore/Console/HelloWorld4/bin/Debug/netcoreapp2.0/MyNameSpace.pdb
+/root/Escritorio/dev/propio/PLRCP/C#/netcore/Console/HelloWorld4/obj/Debug/netcoreapp2.0/MyNameSpace.csproj.CoreCompileInputs.cache
+/root/Escritorio/dev/propio/PLRCP/C#/netcore/Console/HelloWorld4/obj/Debug/netcoreapp2.0/MyNameSpace.AssemblyInfoInputs.cache
+/root/Escritorio/dev/propio/PLRCP/C#/netcore/Console/HelloWorld4/obj/Debug/netcoreapp2.0/MyNameSpace.AssemblyInfo.cs
+/root/Escritorio/dev/propio/PLRCP/C#/netcore/Console/HelloWorld4/obj/Debug/netcoreapp2.0/MyNameSpace.dll
+/root/Escritorio/dev/propio/PLRCP/C#/netcore/Console/HelloWorld4/obj/Debug/netcoreapp2.0/MyNameSpace.pdb

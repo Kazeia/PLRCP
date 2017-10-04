@@ -1,0 +1,8 @@
+/root/Escritorio/dev/propio/PLRCP/C#/netcore/SolutionComplete/Pera.Extension/bin/Debug/netstandard2.0/Pera.Extension.deps.json
+/root/Escritorio/dev/propio/PLRCP/C#/netcore/SolutionComplete/Pera.Extension/bin/Debug/netstandard2.0/Pera.Extension.dll
+/root/Escritorio/dev/propio/PLRCP/C#/netcore/SolutionComplete/Pera.Extension/bin/Debug/netstandard2.0/Pera.Extension.pdb
+/root/Escritorio/dev/propio/PLRCP/C#/netcore/SolutionComplete/Pera.Extension/obj/Debug/netstandard2.0/Pera.Extension.csproj.CoreCompileInputs.cache
+/root/Escritorio/dev/propio/PLRCP/C#/netcore/SolutionComplete/Pera.Extension/obj/Debug/netstandard2.0/Pera.Extension.AssemblyInfoInputs.cache
+/root/Escritorio/dev/propio/PLRCP/C#/netcore/SolutionComplete/Pera.Extension/obj/Debug/netstandard2.0/Pera.Extension.AssemblyInfo.cs
+/root/Escritorio/dev/propio/PLRCP/C#/netcore/SolutionComplete/Pera.Extension/obj/Debug/netstandard2.0/Pera.Extension.dll
+/root/Escritorio/dev/propio/PLRCP/C#/netcore/SolutionComplete/Pera.Extension/obj/Debug/netstandard2.0/Pera.Extension.pdb
