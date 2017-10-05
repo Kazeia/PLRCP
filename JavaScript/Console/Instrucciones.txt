@@ -1,0 +1,33 @@
+A continuacion te muestro algunos ejemplos de creacion de proyectos node:
+
+1. Creacion de Proyectos:
+
+    1.1 Creamos un proyecto(HelloWorld1), creamos carpeta con mkdir, archivo con touch, y escribrimos un programa sencillo:
+    mkdir HelloWorld1
+    cd HelloWorld1
+    touch HelloWorld1.js
+
+    1.2 Creamos un proyecto(HelloWorld2) similar al anterior, con la diferencia q agregaremos una biblioteca externa en este caso utilizaremos linebyline para leer un archivo, para ello utilizamos npm:
+    
+    //npm es el gestor de paquetes, con el siguiente comando nos construye la estructura un proyecto node con npm, ver mas info[1]:
+    npm init
+
+    //modificamos el archivo package.json o instalamos con comando npm - global o local. Lo haremos de la primera manera:
+    {
+        ...
+        "dependencies": {
+            "linebyline": "latest"
+        },
+        ...
+    }
+
+    //instalamos las dependencias
+    npm install
+
+2. Ejecutar el proyeceto:
+
+    2.1 Para ejecutar un codigo JavaScript, correr el siguiente comando:
+    node HelloWorld(#archivo).js
+
+3. Referencias
+[1] http://www.nodehispano.com/2012/04/una-introduccion-a-npm-nodejs/ (Consultado(04/10/2017))

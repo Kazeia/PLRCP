@@ -18,11 +18,11 @@ A continuacion te muestro algunos ejemplos de creacion de proyectos go:
 2. Ejecutar el proyeceto:
 
     2.1 Para ejecutar un codigo go, correr el siguiente comando:
-    go run HelloWorld1.go
+    go run HelloWorld(#archivo).go
 
     2.2 Para convertir a binario, y ejecutar el codigo, correr el siguiente comando:
-    go build HelloWorld1.go
-    ./HelloWorld1
+    go build HelloWorld(#archivo).go
+    ./HelloWorld(#archivo)
 
 3. Referencias
 [1] https://gobyexample.com/hello-world (Consultado(04/10/2017))

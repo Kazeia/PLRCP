@@ -1,0 +1,15 @@
+A continuacion te muestro algunos ejemplos de creacion de proyecto con referencia entre archivos en node:
+
+1. Creacion de Proyectos:
+
+    1.1 Creamos un proyecto(HelloWorld1), creamos carpeta con mkdir, archivo con touch, y escribrimos un programa sencillo:
+    mkdir HelloWorld1
+    cd HelloWorld1
+    touch Web.js
+
+    //ver el codigo, para revisar la referencia entre archivos
+
+2. Ejecutar el proyeceto:
+
+    2.1 Para ejecutar un codigo JavasScript, correr el siguiente comando:
+    node Web.js

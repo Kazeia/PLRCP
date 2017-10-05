@@ -1,0 +1,16 @@
+-- Linux_Debian-8.0_XLDE, mediante bash.
+1. Primero necesitamos descargar NodeJS, para ello seguimos el manual de su pagina oficial[1] y corremos los siguientes codigos:
+
+//Instalamos NodeJS, esta instalacion ya viene con npm
+curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
+sudo apt-get install -y nodejs
+
+//Instalamos herramientas de compilacion, para poder debugear
+sudo apt-get install -y build-essential
+
+//Para verificar la instalacion:
+node -v
+npm -v
+
+4. Referencias:
+[1] https://nodejs.org/es/download/package-manager/ (Consultado(04/10/2017))
