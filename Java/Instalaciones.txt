@@ -1,0 +1,43 @@
+-- Linux_Debian-8.0_XLDE, mediante bash.
+1. Primero necesitamos descargar "Java Platform, Standard Edition Development Kit (JDK 8)". para ello seguimos el siguiente manual[1] y corremos los siguientes codigos:
+
+//Instalamos JDK de Java de su pagina oficial[1], en caso de linux: .tar.gz
+
+//creamos una carpeta java en la ruta del usuario local
+cd /usr/local/
+mkdir java
+
+//Cortamos y pegamos la carpeta .tar.gz descargada en la carpeta q java q hemos creado.
+
+//Extraemos su contenido, y eliminamos la carpeta comprimida para liberar espacio.
+sudo tar xvzf jdk-(VersionDelJDK)-linux-x64.tar.gz
+
+//Creamos una variable y se lo agregamos al PATH del entorno de variables.
+JAVA_HOME=/usr/local/java/jdk1.(VersionDelJDK)
+PATH=$PATH:$HOME/bin:$JAVA_HOME/bin
+export JAVA_HOME
+export PATH
+
+//Para verificar la instalacion:
+java -version
+javac -v
+
+2. En contraste a la version anterior SE DK, es propietario de Oracle; VSCode(y el pluggin) nos pide instalar el JDK OpenSource; para ello necesitaremos descargar el OpenJDK q es la version Libre de JDK SE, para ello primero necesitaremos abrir los 'backports' q nos permite instalar paquetes aun en la rama de construccion a la rama estable:
+
+//modificamos el archivo backports
+echo "deb http://http.debian.net/debian jessie-backports main" > /etc/apt/sources.list.d/jessie-backports.list
+
+//Actualizamos los paquetes
+sudo apt-get update
+
+//Instalamos OpenJDK-jre
+sudo apt-get install -t jessie-backports openjdk-8-jre-headless
+
+//Para desarrollar necesitaremos el JDK
+sudo apt-get install -t jessie-backports openjdk-8-jdk
+
+//Actualizamos la version del java
+sudo /usr/sbin/update-java-alternatives -s java-1.8.0-openjdk-amd64
+
+3. Referencias:
+[1] http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html (Consultado(05/10/2017))

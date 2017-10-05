@@ -1,0 +1,35 @@
+A continuacion te muestro algunos ejemplos de creacion de proyectos en java:
+
+1. Creacion de Proyectos:
+
+    1.1 Creamos un proyecto(HelloWorld1), creamos carpeta con mkdir, archivo con touch, y escribrimos un programa sencillo:
+    mkdir HelloWorld1
+    cd HelloWorld1
+    touch HelloWorld1.java
+
+    1.2 Creamos un proyecto(HelloWorld2) similar al anterior, con la diferencia q agregaremos una jar externo:
+    mkdir HelloWorld2
+    cd HelloWorld2
+    touch HelloWorld2.java
+    mkdir Jars
+    cd Jars
+
+    //Importar el Jar dentro de la carpeta Jars
+
+2. Ejecutar el proyeceto:
+
+    2.1 Para ejecutar un codigo java, correr el siguiente comando:
+
+    //javac creara un archivo .class
+    javac HelloWorld1.java
+
+    //con java corremos el archivo .class
+    java HelloWorld1
+
+    2.2 Para convertir a binario, y ejecutar el codigo, correr el siguiente comando:
+    
+    //cp= classpath en la ruta actual, en caso de windows cambiar : por ;
+    javac -cp Jars/*: HelloWorld2.java
+
+    //Corremos el archivo .class
+    java -cp Jars/*: HelloWorld2
