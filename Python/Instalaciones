@@ -1,0 +1,30 @@
+-- Linux_Debian-8.0_XLDE, mediante bash.
+1. Primero necesitamos descargar Python[1], luego corremos los siguientes comandos [2]:
+
+//Instalamos Paquetes necesarios para Python
+apt-get install build-essential
+
+//Descomprimimos .tgz
+tar zxf Python-2.7.6.tgz
+
+//Instalamos python
+sudo apt-get update
+sudo apt-get install python3.6
+
+//Verificamos la instalacion
+python --version
+
+2. En caso de tener instalado python3, seguir los siguientes comandos para actualizar de python2 a python3
+
+//actualizamos la tabla de uso de python
+update-alternatives --install /usr/bin/python python /usr/bin/python2.7 1
+update-alternatives --install /usr/bin/python python /usr/bin/python3.4 2
+update-alternatives --list python
+update-alternatives --remove python /usr/bin/python2.7
+python --version
+
+3. Necesitaremos instalar python-pip para el manejo de paquetes, descargas y su uso
+
+4. Referencias:
+[1] https://www.python.org/downloads/ (Consultado(05/10/2017))
+[2] https://unix.stackexchange.com/questions/110014/how-to-install-the-latest-python-version-on-debian-separately-or-upgrade (Consultado(05/10/2017))

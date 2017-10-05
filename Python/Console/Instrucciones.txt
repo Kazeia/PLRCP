@@ -1,0 +1,19 @@
+A continuacion te muestro algunos ejemplos de creacion de proyectos con python:
+
+1. Creacion de Proyectos:
+
+    1.1 Creamos un proyecto(HelloWorld1), creamos carpeta con mkdir, archivo con touch, y escribrimos un programa sencillo:
+    mkdir HelloWorld1
+    cd HelloWorld1
+    touch HelloWorld1.py
+    
+    1.2 Creamos un proyecto(HelloWorld2) similar al anterior, con la diferencia q agregaremos una biblioteca externa en este caso utilizaremos linebyline para leer un archivo, para ello utilizamos npm:
+    
+    //npm es el gestor de paquetes, con el siguiente comando nos construye la estructura un proyecto node con npm, ver mas info[1]:
+    npm init
+
+
+2. Ejecutar el proyeceto:
+
+... Otros proyectos paposxd
+

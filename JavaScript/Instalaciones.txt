@@ -12,5 +12,5 @@ sudo apt-get install -y build-essential
 node -v
 npm -v
 
-4. Referencias:
+2. Referencias:
 [1] https://nodejs.org/es/download/package-manager/ (Consultado(04/10/2017))
